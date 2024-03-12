@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color: rgba(186, 204, 203, 0.236);
+    width:100%;
+    height:78vh;
+ 
+}
+h3{
+    font-size: 18px;
+    font-weight:200px;
+    color: black;
+}
+.image{
+    
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+   
+}
+.image img{
+    width: 220px;
+    margin-top: 70px;
+}
+.maindiv{
+    background-color: white;
+    width: 360px;
+    height: 270px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px gray ;
+    padding: 0px 0px 14px 0px;
+    margin:auto;
+    margin-top: -3px;
+
+}
+.loginto{
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: inherit;
+}
+.form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+     
+
+input{
+   font-size: 17px;
+   padding-left: 13px;
+    width: 310px;
+    height: 45px;
+    border: 1px solid rgb(204, 210, 210);;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+    font-size: 15px;
+}
+   input:hover{
+    border-color: rgb(204, 210, 210);
+   }
+button{
+    font-size: 17px;
+   padding-left: 13px;
+    width: 330px;
+    height: 45px;
+    border-color: bisque;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #166fe5;
+    color: white;
+}
+button:hover{
+    background-color: #1b569e;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    border-color: rgb(227, 216, 216);
+    
+}
+
+a{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.foot-child{
+    margin: 0px;
+    text-align: justify;
+}
+.languages{
+    display: flex;
+    margin-right: 7px;
+    margin-left: -55px;
+    
+}
+.languages a{
+    color: rgba(105, 110, 110, 0.862);
+    font-size: 13px;
+    
+}
+
+.ulist li{
+    text-align: justify;
+    list-style: none;
+    display:inline;
+   
+    
+}
+.icon{
+    border-width: 10px;
+}
+.last{
+    color: rgba(105, 110, 110, 0.862);
+    
+    font-size: 13px;
+   margin: 10px;
+}
+footer{
+    margin-left: 130px;
+    margin-top: 120px;
+}
+footer p{
+    font-size:small;
+    margin-left: 35px;
+}
